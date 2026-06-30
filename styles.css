@@ -413,4 +413,58 @@ a.project-link {
   .site-nav.active {
     display: flex;
   }
+
+  .contact-banner {
+    padding: 1.25rem;
+  }
+
+  .contact-form {
+    margin-top: 1.5rem;
+    gap: 1.25rem;
+  }
+
+  .form-row {
+    gap: 0.35rem;
+  }
+
+  .form-row input,
+  .form-row textarea {
+    padding: 0.85rem 1rem;
+  }
+
+  .primary-button {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .card.project-card {
+    padding: 0.6rem;
+  }
+
+  .card img.project-thumb {
+    height: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: calc(100% - 1.25rem);
+  }
+
+  .contact-banner {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .section-heading h2 {
+    font-size: 1.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
