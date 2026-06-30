@@ -214,10 +214,10 @@ h1 {
 }
 
 .card img.project-thumb {
-  width: 100%;
-  aspect-ratio: 1 / 1;
+  width: 180px;
+  height: 180px;
   border-radius: var(--radius);
-  margin: 0.5rem 0 0.25rem;
+  margin: 0.5rem auto 0.25rem;
   display: block;
   object-fit: cover;
   border: 1px solid var(--border);
@@ -443,7 +443,8 @@ a.project-link {
   }
 
   .card img.project-thumb {
-    aspect-ratio: 1 / 1;
+    width: 180px;
+    height: 180px;
   }
 }
 
